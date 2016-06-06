@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<title>houhou</title>
-	<script src="js/scrollsmoothly.js"></script>
+	<script src="phonegap.js"></script>
 	<!-- Custom CSS -->
 	<link href="css/reset.css" type="text/css" rel="stylesheet">
 	<link href="css/style.css" type="text/css" rel="stylesheet">
@@ -25,25 +25,13 @@ iframe
 	border:0;
 }
 </style>
-<script>
-$(function()
-{
-	$('iframe').load(function()
-	{
-		$('iframe').contents().find('a').click(function()
-		{
-			var href = $(this).attr("href");
-			alert(href);  
-		});
-	});
-});
-</script>
+
 </head>
 
 <body>
 
 
-<iframe src="http://www.naisyo-g.com/index.html" seamless></iframe>
+
 
 	
 </body>
