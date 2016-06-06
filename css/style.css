@@ -1,0 +1,97 @@
+
+
+.width-keeper {
+	max-width: 720px;
+	margin: 0 auto;
+}
+
+/* ================================レイアウト====================================================================== */
+section {
+	margin: 5% 0;
+}
+/* ---Header-------------------------------------------------------------- */
+#header {
+	background:#262626 /*url(images/header_bg.jpg) repeat center top*/;
+	z-index:1;
+	width:100%;
+}
+h1 {
+	position: relative;
+	width: 100%;
+	background: #ffcad4;
+	height:40px;
+}
+h1 span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%); /* Safari用 */
+	transform: translate(-50%, -50%);
+	color: #ffffff;
+	font-size: 12px;
+}
+
+p.catch {
+	margin-top: -3%;
+}
+
+
+/* ---apply-------------------------------------------------------------- */
+
+.apply {
+	margin: 8% 0;
+	position: relative;
+	width:100%;
+}
+ul.apply-button {
+	position: absolute;
+	top: 43%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%); /* Safari用 */
+	transform: translate(-50%, -50%);
+	display: table;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 3%;
+}
+ul.apply-button li {
+	display: table-cell;
+	width: 33%;
+	text-align:center;
+	box-sizing: border-box;
+	padding: 0 3%;
+}
+
+/* ---catch-nav-------------------------------------------------------------- */
+.catch-nav ul {
+	width: 100%;
+	display: table;
+}
+li {
+	display: table-cell;
+	width: 33%;
+	text-align:center;
+	box-sizing: border-box;
+	padding: 0 3%;
+}
+/* ---Footer-------------------------------------------------------------- */
+footer {
+	position: relative;
+	width: 100%;
+	background: #ffcad4;
+	height: 60px;
+}
+footer span {
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%); /* Safari用 */
+	transform: translate(-50%, -50%);
+	color: #ffffff;
+	font-size: 12px;
+	white-space: nowrap;
+}
+
+
+
+
