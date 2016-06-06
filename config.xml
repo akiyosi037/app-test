@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
   <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
-    id          = "com.phonegap.example"
+    id          = "jp.co.mca-service.houhou"
     versionCode = "10"
     version     = "1.0.0" >
 
@@ -11,5 +11,5 @@
     MCA Service Inc.
   </author>
 
-  <content src="http://www.naisyo-g.com/index.html" />
+  <content src="http://decok.com/" />
 </widget>
